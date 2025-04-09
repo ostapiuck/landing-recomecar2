@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recomeçar Finanças - Limpe seu nome e recupere o controle</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #FFD700;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 2rem;
+      background: #111;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+      border-radius: 12px;
+    }
+    h1, h2 {
+      color: #FFD700;
+    }
+    .highlight {
+      color: #fff;
+      font-weight: bold;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: '✔';
+      color: #FFD700;
+      margin-right: 0.5rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    input[type="text"],
+    input[type="email"] {
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #FFD700;
+      border-radius: 8px;
+      background: #222;
+      color: #FFD700;
+    }
+    button {
+      padding: 1rem;
+      font-size: 1rem;
+      background: #FFD700;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .depoimentos {
+      background: #222;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+      color: #fff;
+    }
+    .footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #888;
+    }
+    .hero-img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://images.unsplash.com/photo-1580910051073-dc6c2a356f89?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Finanças" class="hero-img">
+    <h1>Seu nome não é sua dívida.</h1>
+    <p class="highlight">Aprenda como limpar seu nome, subir seu score e recuperar crédito com acompanhamento prático — mesmo ganhando pouco e estando negativado.</p>
+
+    <h2>Cadastre-se e receba o 1º passo da Mentoria <em>Recomeçar</em>:</h2>
+    <ul>
+      <li>Negocie suas dívidas com segurança</li>
+      <li>Aumente seu score com estratégias simples</li>
+      <li>Receba uma planilha de controle financeiro</li>
+      <li>Acesso ao grupo com conteúdo exclusivo</li>
+    </ul>
+
+    <form>
+      <input type="text" placeholder="Seu nome completo" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <input type="text" placeholder="Seu WhatsApp (com DDD)" required>
+      <button type="submit">Quero começar meu recomeço!</button>
+    </form>
+
+    <div class="depoimentos">
+      <p><strong>"Consegui limpar meu nome em menos de 3 meses com as dicas do Gabriel. Meu score já subiu 140 pontos!"</strong> – Luciana, 34 anos</p>
+      <p><strong>"Antes eu nem olhava meu extrato. Hoje eu anoto tudo e consigo guardar dinheiro."</strong> – Marcos, 41 anos</p>
+    </div>
+
+    <div class="footer">
+      🔐 Seus dados estão seguros. Não fazemos spam. <br>
+      © 2025 Recomeçar Finanças
+    </div>
+  </div>
+</body>
+</html>
